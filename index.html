@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,36 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <script defer src="./assets/js/app.js"></script>
 
-     <!-- Leaflet -->
-     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <title>SpaceStationTracker</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="map"></div>
+    <!-- <div id="map"></div> -->
+    <div class="main">
+        <h1>Space Station Tracker</h1>
+    </div>
+    <div class="darkmode">
+        <h3> Click for Dark Mode</h3>
+        <label for="switch" class="switch_class">
+            <button class="switch-class-button"></button>
+        </label>
+    </div>
+    <div class="content">
+        <div class="content-1">
+            <h1 id="latitude">Latitude :</h1>
+            <h1 id="longitude">Longitude :</h1>
+            <h1 id="velocity">Velocity :</h1>
+            <div id="map"></div>
+        </div>
+    </div>
 </body>
+
 </html>

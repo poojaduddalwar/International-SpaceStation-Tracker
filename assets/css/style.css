@@ -1,4 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fruktur', cursive;
+    font-weight: 400;
+    color: #e5b769;
+}
+
+body.dark{
+    background-color: #030027;
+}
+
+body.dark div.content-1{
+    border-color: #b7b7ad;
+}
+
+body.dark button.switch-class-button{
+    transform: translateX(25px);
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: In · Sine;
+    transition-delay: 0s;
+    background-color: white;
+}
+
+body.dark div.darkmode label.switch_class{
+    background-color: black;
+    border: 1px;
+    border-style: outset;
+    border-color: white;
+}
+
 div#map{
-    width: 100%;
+    width: 500px;
     height: 300px;
+    margin-top: 10px;
+}
+
+div.main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+div.darkmode h3{
+    margin-left: 10px;
+}
+div.darkmode label.switch_class {
+    width: 50px;
+    height: 25px;
+    background-color: whitesmoke;
+    border: 1px;
+    border-style: outset;
+    border-color: black;
+    display: block;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+button.switch-class-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 1.5px;
+    background-color: black;
+}
+
+div.darkmode{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+div.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+}
+div.content-1{
+    width: fit-content;
+    border: 12px;
+    border-style: double;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
