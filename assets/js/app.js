@@ -1,7 +1,7 @@
 const LngElement = document.querySelector("#longitude")
 const LatElement = document.querySelector("#latitude")
 const VeloElement = document.querySelector("#velocity")
-const DarkButton = document.querySelector(".switch-class-button")
+const DarkButton = document.querySelector(".switch_class")
 const Body = document.querySelector("body")
 
 const darkmodefun = () => {

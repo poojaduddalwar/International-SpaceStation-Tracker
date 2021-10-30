@@ -59,6 +59,7 @@ div.darkmode label.switch_class {
     display: block;
     border-radius: 10px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 button.switch-class-button {
@@ -67,6 +68,7 @@ button.switch-class-button {
     border-radius: 50%;
     margin: 1.5px;
     background-color: black;
+    cursor: pointer;
 }
 
 div.darkmode{
