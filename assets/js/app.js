@@ -1,13 +1,16 @@
 const LngElement = document.querySelector("#longitude")
 const LatElement = document.querySelector("#latitude")
 const VeloElement = document.querySelector("#velocity")
-const DarkButton = document.querySelector(".switch_class")
-const Body = document.querySelector("body")
+// const DarkButton = document.querySelector(".switch_class")
+// const Body = document.querySelector("body")
+// const Video = document.querySelector("video")
 
-const darkmodefun = () => {
-    Body.classList.toggle('dark')
-}
-DarkButton.addEventListener('click',darkmodefun)
+// const darkmodefun = () => {
+//     Body.classList.toggle('dark')
+//     // Body.removeChild.toggle(Video)
+//     Video.remove()
+// }
+// DarkButton.addEventListener('click',darkmodefun)
 
 var map = L.map('map').setView([0,0], 1);
 
