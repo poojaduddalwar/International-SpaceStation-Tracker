@@ -8,16 +8,6 @@
     color: #e5b769;
 }
 
-/* body{
-    background-color: #030027;
-    background: url("../images/pexels-pixabay-87009.jpg");
-    background-size: cover;
-} */
-
-/* body.dark div.content-1{
-    border-color: #b7b7ad;
-} */
-
 video{
     object-fit: cover;
     width: 100vw;
@@ -27,23 +17,6 @@ video{
     left: 0;
     z-index: -1;
 }
-
-/* body.dark button.switch-class-button{
-    transform: translateX(25px);
-    transition: 0.3s;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: In · Sine;
-    transition-delay: 0s;
-    background-color: white;
-}
-
-body.dark div.darkmode label.switch_class{
-    background-color: black;
-    border: 1px;
-    border-style: outset;
-    border-color: white;
-} */
 
 div#map{
     width: 100%;
@@ -59,39 +32,6 @@ div.main h1{
     justify-content: center;
     text-decoration: underline;
 }
-
-/* div.darkmode h3{
-    position: relative;
-    margin-left: 10px;
-}
-div.darkmode label.switch_class {
-    position: relative;
-    width: 50px;
-    height: 25px;
-    background-color: whitesmoke;
-    border: 1px;
-    border-style: outset;
-    border-color: black;
-    display: block;
-    border-radius: 10px;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-button.switch-class-button {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 1.5px;
-    background-color: black;
-    cursor: pointer;
-}
-
-div.darkmode{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-} */
 
 div.content{
     display: flex;
